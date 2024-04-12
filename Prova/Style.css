@@ -1,0 +1,124 @@
+@import url(https://fonts.googleapis.com/css2?family=Abel&display=swap);
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background-color: #F7F8F7;
+    display: flex;
+    width: 100%;
+    height: 5%;
+    justify-content: space-around;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 200px;
+}
+#logo{
+    width: 15%;
+}
+#logo img{
+    width: 100%;    
+}
+#menu{
+    width: 20%;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+#menu img{
+    width: 10%;
+}
+#menu a{
+    font-family: Arial, Helvetica, sans-serif;/*Fonte errada*/
+    text-decoration: none;
+    font-size: 1.4em;
+    color: #171214;
+}
+#section{
+    background-color: #CAFAD9;
+    width: 100%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+}
+#section_tx{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 40%;
+    justify-content: space-around;
+    padding-left: 5%;
+}
+#section_tx h1{
+    width: 55%;
+    font-size: 2.5em;
+}
+#section_tx p{
+    width: 65%;
+    font-size: 1em;
+}
+#section_bottons{
+    width: 100%;
+    height: 2%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+#botton_1 a{
+    width: 40%;
+    height: 40px;
+    color: #171214;
+    background-color: #7622D7;
+    border-radius: 50px;
+    text-decoration: none;
+}
+#botton_2 a{
+    width: 40%;
+    height: 40px;
+    color: #171214;
+    background-color: #CAFAD9;
+    border-radius: 50px;
+    text-decoration: none;
+    border: solid #7622D7 1px;
+}
+#section_img{
+    width: 40%;
+}
+#section_img img{
+    height: 100%;
+}
+#div_footer{
+    width: 100%;
+    display: flex;
+    align-self: center;
+    justify-content: space-around;
+}
+#Contato{
+    width: 50%;
+}
+#redes{
+    width: 50%;
+}
+#Redes div{
+    display: flex;
+}
+#Redes img{
+    width: 2%;
+}
+#footer_p{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
